@@ -2,25 +2,27 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11592179&assignment_repo_type=AssignmentRepo)
 # Pet Stay
 
-`CURSO: Sistemas de Informação`
+`CURSO: Sistemas de Informação e ADS`
 
 `DISCIPLINA: Projeto - Aplicações Web`
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Ligar pessoas que precisam de serviço de cuidado e hospedagem pet a pessoas que estão dispostas a prestar esse serviço.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Brian
+* Bruna
+* Gabriela Lopes
+* Vitor
+* Danuza Joaquina Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Franciele
+* Fabio
+* Shirley
 
 # Planejamento
 
