@@ -14,8 +14,8 @@ Ligar pessoas que precisam de serviço de cuidado e hospedagem pet a pessoas que
 
 * Brian
 * Bruna
-* Gabriela Lopes
-* Vitor
+* Gabriela Marques
+* Vitor Gomes Faul
 * Danuza Joaquina Silva
 
 ## Orientador
