@@ -45,13 +45,62 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Cadastro de Usuários | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-002| Perfil do Cuidador   | ALTA | |
+|RF-003| Busca e Filtro de Cuidadores   | ALTA | |
+|RF-004| Agendamento de Hospedagem   | ALTA | |
+|RF-005| Sistema de Avaliações e Comentários   | ALTA | |
+|RF-006| Sistema de Mensagens   | ALTA | |
+|RF-007| Gerenciamento de Reservas   | ALTA | |
+|RF-008| Pagamentos e Transações   | ALTA | |
+|RF-009| Acesso ao Histórico   | MÉDIA | |
+|RF-010| Recuperação de Senha   | MÉDIA | |
 
 Cadastro de Usuários:
 
 Os usuários devem poder criar contas de cuidadores e donos de animais.
 O sistema deve exigir informações como nome, endereço de e-mail e senha durante o cadastro.
 
+Perfil do Cuidador:
+
+Cada cuidador deve poder criar um perfil que inclua informações como experiência, tipos de animais que pode cuidar e instalações disponíveis.
+O cuidador deve poder adicionar fotos das instalações.
+
+Busca e Filtro de Cuidadores:
+
+Os donos de animais devem poder pesquisar cuidadores com base em critérios como localização, tipos de animais e disponibilidade.
+Os resultados da pesquisa devem ser apresentados em uma lista ou mapa.
+
+Agendamento de Hospedagem:
+
+Os donos de animais devem poder agendar hospedagem com um cuidador específico em datas selecionadas.
+O sistema deve exibir as datas disponíveis no perfil do cuidador.
+
+Sistema de Avaliações e Comentários:
+
+Os donos de animais devem poder avaliar e deixar comentários sobre a experiência com um cuidador após a hospedagem.
+A classificação média do cuidador deve ser exibida em seu perfil.
+
+Sistema de Mensagens:
+
+Os donos de animais e os cuidadores devem poder se comunicar através de mensagens em tempo real.
+As notificações devem alertar os usuários sobre novas mensagens.
+
+Gerenciamento de Reservas:
+
+Os donos de animais e os cuidadores devem ter acesso a um painel para visualizar e gerenciar suas reservas atuais e futuras.
+
+Pagamentos e Transações:
+
+O sistema deve permitir que os donos de animais efetuem pagamentos de hospedagem de forma segura.
+Deve haver um sistema de registro de transações para rastrear pagamentos e comissões (se aplicável).
+
+Acesso ao Histórico:
+
+Os usuários devem poder acessar um histórico de suas reservas anteriores e interações.
+
+Recuperação de Senha:
+
+Os usuários devem ter a opção de redefinir suas senhas caso as esqueçam.
 
 
 ### Requisitos não Funcionais
