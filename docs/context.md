@@ -28,9 +28,7 @@ O hotelzinho para cachorro é uma hospedagem temporária para cães em momentos 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A criação de uma aplicação web para cadastrar cuidadores de pets e pessoas que necessitam de serviços de hospedagem para seus animais de estimação atende a uma demanda crescente no mercado, proporcionando uma solução prática e conveniente para a falta de opções confiáveis de cuidado durante viagens. Através da criação de uma plataforma que facilita a conexão entre cuidadores qualificados e donos de animais preocupados com o bem-estar de seus pets, é possível suprir as necessidades de um público que busca alternativas confiáveis e personalizadas para a hospedagem de seus animais, ao mesmo tempo em que oferece oportunidades de renda para os cuidadores interessados. Dessa forma, a aplicação preenche uma lacuna no mercado e estabelece uma comunidade de amantes de animais que valorizam a segurança e o cuidado responsável.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
