@@ -4,7 +4,7 @@ Muitos proprietários de animais de estimação enfrentam dificuldades ao procur
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Paulo tem 24 anos,é um profissional jovem e ambicioso que trabalha em uma empresa de tecnologia. Seu trabalho exige dedicação e frequentemente ele precisa viajar para reuniões e conferências.Ele é solteiro e tem um cão chamado Max e uma gatinha chamada luna, dois animais são cheios de energia.Como um profissional ocupado Paulo sempre está em busca de hospedagem para seus pets, porém tem sentido uma enorme dificuldade de encontrar cuidadores confiáveis.Paulo, está um pouco ansioso com a ideia de deixar Max e luna longe de casa, pois já teve experiências ruins no passado com hospedagens que não atenderam às suas expectativas.O objetivo de Paulo é encontrar um sistema de hospedagem de pets que tenha cuidadores bem treinados, que compreendam os comportamentos e necessidades dos animais e que estejam próximos a sua casa. Ele valoriza a presença de atividades de enriquecimento, áreas ao ar livre para exercícios e espaços onde os animais possam relaxar. Além disso, ele espera receber atualizações regulares sobre a saúde e o bem-estar de seus animais durante sua estadia.Para que ele se concentre em suas responsabilidades sem preocupações.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
