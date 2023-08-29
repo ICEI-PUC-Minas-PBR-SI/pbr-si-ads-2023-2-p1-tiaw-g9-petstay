@@ -44,8 +44,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
+|RF-001| Cadastro de Usuários | ALTA |  |
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+
+Cadastro de Usuários:
+
+Os usuários devem poder criar contas de cuidadores e donos de animais.
+O sistema deve exigir informações como nome, endereço de e-mail e senha durante o cadastro.
+
 
 
 ### Requisitos não Funcionais
