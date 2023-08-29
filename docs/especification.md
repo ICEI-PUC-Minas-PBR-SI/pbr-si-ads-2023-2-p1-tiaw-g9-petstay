@@ -1,8 +1,6 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Muitos proprietários de animais de estimação enfrentam dificuldades ao procurar cuidadores confiáveis para seus pets durante suas ausências, como viagens. A ausência de uma plataforma centralizada e confiável para conectar cuidadores qualificados e donos de animais resulta em insegurança e falta de opções adequadas de hospedagem. Além disso, cuidadores interessados em oferecer seus serviços muitas vezes têm dificuldade em encontrar oportunidades e divulgar suas habilidades de forma eficaz.
 
 ## Personas
 
