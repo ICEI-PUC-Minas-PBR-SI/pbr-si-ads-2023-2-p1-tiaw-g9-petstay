@@ -53,7 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| Gerenciamento de Reservas   | ALTA | |
 |RF-008| Pagamentos e Transações   | ALTA | |
 |RF-009| Acesso ao Histórico   | MÉDIA | |
-|RF-010| Recuperação de Senha   | MÉDIA | |
+|RF-010| Recuperação de Senha   | BAIXA | |
 
 Cadastro de Usuários:
 
