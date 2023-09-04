@@ -27,9 +27,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Suponha que um parente do  faleça e o enterro será em outra cidade. Devido a urgência não havia ninguém proximo que pudesse cuidar do pet, e nem mesmo havia a possíbilidade de levá-lo nessa viagem. 
-Outra situação seria a de ter uma viagem programada a meses, sem possibilidade de remarcação e pouco antes da viagem a pessoa que ficaria responsável pelo seu pet desmarca. O tutor fica desesperado, pois, se trata de uma viagem de avião, que não há a possibilidade de levar um pet já que o hotel não é pet-friendly. 
-Para ambos temos a seguintes possibilidades, cancelar a viagem ou conseguir uma hospedagem pet de confiança.
+Suponha que um ente querido faleça e o enterro seja em outra cidade. Devido a urgência não há ninguém proximo que possa cuidar do seu pet, e nem mesmo a possíbilidade de levá-lo nessa viagem. 
+Outra situação hipotética seria a de ter uma viagem programada a meses, sem possibilidade de remarcação e pouco antes da viagem a pessoa que ficaria responsável pelo seu pet desmarca. O tutor fica desesperado, pois, se trata de uma viagem que não há a possibilidade de levar o pet.
+Para ambos temos a seguintes possibilidades, cancelar as viagens ou conseguir uma hospedagem pet de confiança.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
