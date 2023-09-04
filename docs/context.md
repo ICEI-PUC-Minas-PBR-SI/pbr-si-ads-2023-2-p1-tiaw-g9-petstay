@@ -1,6 +1,6 @@
 # Introdução
 
- Apresentamos um projeto inovador que visa simplificar a busca por hospedagem temporária para pets, preenchendo uma lacuna importante no cuidado com animais de estimação. Nosso sistema conecta donos de pets a cuidadores próximos, facilitando a localização de hotelzinhos confiáveis para seus animais de estimação quando os tutores precisam se ausentar. 
+ Apresentamos um projeto que visa simplificar a busca por hospedagem temporária para pets, preenchendo uma lacuna importante no cuidado com animais de estimação. Nosso sistema conecta donos de pets a cuidadores próximos, facilitando a localização de hotelzinhos confiáveis para seus animais de estimação quando os tutores precisam se ausentar. 
 Reconhecendo a dificuldade que muitos enfrentam ao encontrar cuidadores adequados, nossa plataforma digital não apenas oferece praticidade aos tutores, mas também cria oportunidades de emprego para amantes de animais que desejam cuidar de pets temporariamente. Combinando a conveniência da tecnologia com a crescente demanda por serviços de hospedagem pet, nosso projeto visa melhorar a vida dos tutores e criar uma rede de cuidadores confiáveis.
 Com essa apresentação, buscamos destacar a essência do nosso projeto, que não apenas oferece uma solução para um problema real, mas também abre portas para uma nova dinâmica econômica, melhorando a vida dos donos de animais de estimação e ampliando as oportunidades de emprego na comunidade de amantes de pets.
 
