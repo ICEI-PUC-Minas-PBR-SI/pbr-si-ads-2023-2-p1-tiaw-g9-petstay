@@ -4,7 +4,7 @@
 
 `CURSO: Sistemas de Informação e ADS`
 
-`DISCIPLINA: Trabalho interdisciplinar Aplicações Web
+`DISCIPLINA: Trabalho interdisciplinar Aplicações Web`
 
 `SEMESTRE: 2º`
 
