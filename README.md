@@ -4,19 +4,20 @@
 
 `CURSO: Sistemas de Informação e ADS`
 
-`DISCIPLINA: Projeto - Aplicações Web`
+`DISCIPLINA: Trabalho interdisciplinar Aplicações Web
 
-`SEMESTRE: 1º`
+`SEMESTRE: 2º`
 
 Ligar pessoas que precisam de serviço de cuidado e hospedagem pet a pessoas que estão dispostas a prestar esse serviço.
 
 ## Integrantes
 
 * Brian Nicolas Dias Costa 
-* Bruna
+* Bruna mikaella Pereira 
 * Gabriela Marques dos Santos Nascimento
 * Vitor Gomes Faul
-* Danuza Joaquina Silva
+* Danuza Joaquina Silva]
+* Veber Augusto Soares 
 
 ## Orientador
 
