@@ -6,11 +6,7 @@ Com essa apresentação, buscamos destacar a essência do nosso projeto, que nã
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O nosso sistema, busca solucionar os problemas relacionados a falta de um aplicativo eficiente que facilite a busca e hospedagem para pets. Pois, pela falta de cuidadores de pets muitos donos de animais ficam limitados e não conseguem deixar seus pets hospedados com pessoas confiáveis. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -18,7 +14,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
- o objetivo do nosso sistema é facilitar a busca de modo que os donos dos animais possam encontrar cuidadores de cachorros próximos a eles de forma prática. Para que serve o nosso sistama? O hotelzinho para cachorro é uma hospedagem temporária para cães em momentos quando seus tutores precisam se ausentar. Assim como em um hotel para seres humanos, as diárias são contratadas por um período determinado, e o pet ficará em um ambiente seguro, sob os cuidados e a supervisão de profissionais treinados, porém a busca por esses hotelzinhos está muito dificil hoje em dia, dessa forma o nosso sistema vai facilitar a busca por esses profissionais.
+ o objetivo do nosso sistema é facilitar a busca de modo que os donos dos animais possam encontrar cuidadores de cachorros próximos a eles de forma prática. Para que serve o nosso sistama? O hotelzinho para pets é uma hospedagem temporária em momentos quando seus tutores precisam se ausentar. Assim como em um hotel para seres humanos, as diárias são contratadas por um período determinado, e o pet ficará em um ambiente seguro, sob os cuidados e a supervisão de profissionais treinados, porém a busca por esses hotelzinhos está muito dificil hoje em dia, dessa forma o nosso sistema vai facilitar a busca por esses profissionais.
 
 ## Justificativa
 
