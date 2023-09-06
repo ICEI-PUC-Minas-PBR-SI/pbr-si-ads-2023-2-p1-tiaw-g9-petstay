@@ -31,7 +31,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
                                                           |
 -Usuário do sistema 
--Preciso de um sistema capaz de  realizar um cadastro de das minhas descrições pessoais 
+-Preciso de um sistema capaz de  realizar um cadastro das minhas descrições pessoais 
 -Para que eu possa adicionar minhas informações de cuidadora de cachorros, como minha localização, fotos da minha casa e etc e assim eu possa prestar meus serviços de cuidadora de pets e para que os donos que procuram esse tipo de serviço, possam acessar minhas informações e ter confiança em meus serviços.
 
 -Usuário do sistema 
