@@ -30,13 +30,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
                                                           |
-EU COMO... `PERSONA`- Usuário do sistema 
-QUERO/PRECISO ... `FUNCIONALIDADE`- Preciso de um sistema capaz de  realizar um cadastro de das minhas descrições pessoais 
-PARA ... `MOTIVO/VALOR`- para que eu possa adicionar minhas informações de cuidadora de cachorros, como minha localização, fotos da minha casa e etc e assim eu possa prestar meus serviços de cuidadora de pets e para que os donos que procuram esse tipo de serviço, possam acessar minhas informações e ter confiança em meus serviços.
+-Usuário do sistema 
+-Preciso de um sistema capaz de  realizar um cadastro de das minhas descrições pessoais 
+-Para que eu possa adicionar minhas informações de cuidadora de cachorros, como minha localização, fotos da minha casa e etc e assim eu possa prestar meus serviços de cuidadora de pets e para que os donos que procuram esse tipo de serviço, possam acessar minhas informações e ter confiança em meus serviços.
 
-EU COMO... `PERSONA`- Usuário do sistema 
-QUERO/PRECISO ... `FUNCIONALIDADE`- Preciso de um sistema que contenha um filtro de pesquisa 
-PARA ... `MOTIVO/VALOR`- Para que eu possa pesquisar cuidadores com base em critérios como localização, tipos de animais e disponibilidade. 
+-Usuário do sistema 
+-Preciso de um sistema que contenha um filtro de pesquisa 
+-Para que eu possa pesquisar cuidadores com base em critérios como localização, tipos de animais e disponibilidade. 
 
 
 
