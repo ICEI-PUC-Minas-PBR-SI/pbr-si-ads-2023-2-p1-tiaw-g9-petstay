@@ -21,7 +21,7 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
-## Histórias de Usuários
+## Histórias de Usuários Preciso de uma tela de login e senha para realizar meu cadastro e adicionar minhas informações de cuidador de cachorros, como minha localização, fotos da minha casa e etc. 
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
@@ -29,10 +29,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+                                                          |
+EU COMO... `PERSONA`- Usuário do sistema 
+QUERO/PRECISO ... `FUNCIONALIDADE`- Preciso de um sistema capaz de  realizar um cadastro de das minhas descrições pessoais 
+PARA ... `MOTIVO/VALOR`- para que eu possa adicionar minhas informações de cuidadora de cachorros, como minha localização, fotos da minha casa e etc e assim eu possa prestar meus serviços de cuidadora de pets e para que os donos que procuram esse tipo de serviço, possam acessar minhas informações e ter confiança em meus serviços.
 
-Suponha que um ente querido faleça e o enterro seja em outra cidade. Devido a urgência não há ninguém proximo que possa cuidar do seu pet, e nem mesmo a possíbilidade de levá-lo nessa viagem. 
-Outra situação hipotética seria a de ter uma viagem programada a meses, sem possibilidade de remarcação e pouco antes da viagem a pessoa que ficaria responsável pelo seu pet desmarca. O tutor fica desesperado, pois, se trata de uma viagem que não há a possibilidade de levar o pet.
-Para ambos temos a seguintes possibilidades, cancelar as viagens ou conseguir uma hospedagem pet de confiança.
+EU COMO... `PERSONA`- Usuário do sistema 
+QUERO/PRECISO ... `FUNCIONALIDADE`- Preciso de um sistema que contenha um filtro de pesquisa 
+PARA ... `MOTIVO/VALOR`- Para que eu possa pesquisar cuidadores com base em critérios como localização, tipos de animais e disponibilidade. 
+
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
