@@ -32,7 +32,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | permitir filtros           | Para encontrar o cuidador mais adequado as minhas necessidades               |
 |Usuário do sistema  | preciso de uma tela de agendamento           | Para saber a disponibilidade do cuidador e se programar |
 |Usuário do sistema  | preciso ter uma tela de avaliação de serviço         | Para avaliar se o serviço atendeu as expectativas |
-|Usuário do sistema  | preciso ter a opção de recuperação de senha         | Para se caso eu perder ou esquecer minha senha e não conseguir acessr o sistema |
+|Usuário do sistema  | preciso ter a opção de recuperação de senha         | Para se caso eu perder ou esquecer minha senha e não conseguir acessar o sistema |
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
