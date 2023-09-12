@@ -27,11 +27,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefasjncjnjcnkcnkmclkcmcmc kmcnkcnkckcmkcmckçmckmckmckmckmckmckmckcmkcmkcmckmckmckmckmckmckcmkcmkcmkcmckmckcmkcmkcmckmck           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |.                       |
-
-
-
+|Usuário do sistema  | permitir cadastro de usuários           | Para adicionar informações de localização e disponibilidade |
+|Administrador       | Preciso controlar as funcionalidades do meus sistema                 | Para fazer correções e manutenção|
+|Usuário do sistema  | permitir filtros           | Para encontrar o cuidador mais adequado as minhas necessidades               |
+|Usuário do sistema  | preciso de uma tela de agendamento           | Para saber a disponibilidade do cuidador e se programar |
+|Usuário do sistema  | preciso ter uma tela de avaliação de serviço         | Para avaliar se o serviço atendeu as expectativas |
+|Usuário do sistema  | preciso ter a opção de recuperação de senha         | Para se caso eu perder ou esquecer minha senha e não conseguir acessr o sistema |
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -113,7 +114,7 @@ Os usuários devem ter a opção de redefinir suas senhas caso as esqueçam.
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
+|RNF-003|O sistema deve respeitar a LGPD | ALTA|
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 - [Requisitos Funcionais
@@ -137,6 +138,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Controlar o nível de autoridade dos usuários          | 
+|04| Sistema limitado a linguagem HTML e Css               | 
+|05| Quantidade de funcionalidades que serão implementadas | 
+  
+ 
+ 
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
