@@ -17,7 +17,8 @@ Ligar pessoas que precisam de serviço de cuidado e hospedagem pet a pessoas que
 * Gabriela Marques dos Santos Nascimento
 * Vitor Gomes Faul
 * Danuza Joaquina Silva
-* Veber Augusto Soares 
+* Veber Augusto Soares
+* Gabriel Rocha de Oliveira
 
 ## Orientador
 
