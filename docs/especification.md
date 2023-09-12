@@ -27,11 +27,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|cuidador de animais   Registrar minhas tarefas             Para que eu possa adicionar minhas     |         
-|                      Preciso de um sistema capaz de      informações de cuidadora de cachorros,  |
-|                      realizar um cadastro das minhas      como minha localização, fotos da minha |
-|                     informações pessoais                 casa e etc para que donos de pets possam|
-|                                                          acessar minhas informações.             |
+|cuidador de animais |  Registrar minhas tarefas          | Para que eu possa adicionar minhas     |         
+|                    |  Preciso de um sistema capaz de    |informações de cuidadora de cachorros,  |
+|                    |  realizar um cadastro das minhas   |como minha localização, fotos da minha  |
+|                    | informações pessoais               |casa e etc para que donos de pets possam|
+                                                          | acessar minhas informações.            |
 
 |dono de pets        | Preciso de um filtro no sistema      para que eu possa pesquisar cuidadores |       
 |                      cuidadores de acordo                 de acordo com minhas necessidades, com |        
