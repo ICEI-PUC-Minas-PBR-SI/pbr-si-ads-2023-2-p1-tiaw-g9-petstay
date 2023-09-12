@@ -27,16 +27,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-                                                          |
--Usuário do sistema 
--Preciso de um sistema capaz de  realizar um cadastro das minhas descrições pessoais 
--Para que eu possa adicionar minhas informações de cuidadora de cachorros, como minha localização, fotos da minha casa e etc e assim eu possa prestar meus serviços de cuidadora de pets e para que os donos que procuram esse tipo de serviço, possam acessar minhas informações e ter confiança em meus serviços.
-
--Usuário do sistema 
--Preciso de um sistema que contenha um filtro de pesquisa 
--Para que eu possa pesquisar cuidadores com base em critérios como localização, tipos de animais e disponibilidade. 
+|cuidador de animais | Registrar minhas tarefas           | Para que eu possa adicionar minhas     |         
+|                    | Preciso de um sistema capaz de     |informações de cuidadora de cachorros,  |
+|                    |realizar um cadastro das minhas     |como minha localização, fotos da minha  |
+|                    |informações pessoais                |casa e etc para que donos de pets possam|
+|                    |                                    |acessar minhas informações.             |
+----------------------------------------------------------------------------------------------------
+|dono de pets        | Preciso de um filtro no sistema    |  para que eu possa pesquisar cuidadores|       
+|                    | cuidadores de acordo               |  de acordo com minhas necessidades, com|        
+|                    |necessidades.                       | base em critérios como localização e   |                     
+|                    |                                    | disponibilidade.                       |
+---------------------------------------------------------------------------------------------------- 
 
 
 
