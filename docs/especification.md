@@ -9,6 +9,8 @@ Muitos tutores de animais de estimação enfrentam dificuldades ao procurar cuid
 
 2º Maria 65 anos, é uma aposentada que está em busca de uma renda extra ela deseja receber pets na sua casa, pois ela gosta muito de animais.
 
+3º Lucas Augusto tem 44 anos, é representante comercial de uma multinacional e solteiro. Lucas viaja muito a trabalho e isso dificulta muito a conciliação do seu tempo para cuidar da sua gatinha  clarinha que é cheia de energia. Lucas busca o serviço de hospedagem pet pelo fato de poder agendar a hospedagem da sua gatinha a qualquer momento  mesmo quando estiver fora de casa. Lucas vê como vantagem, a liberdade que o sistema de hospedagem pode proporcionar trazendo um custo/benefício muito considerável e um sentimento de alívio por saber que clarinha não estará sozinha em casa quando ele estiver em viagem. Lucas necessita de praticidade e compromisso, já que  viaja toda semana a trabalho, como ele não tem uma rotina definida, precisa de uma hospedagem pet a sua disposição com facilidade de acesso.
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -54,10 +56,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Busca e Filtro de Cuidadores   | ALTA | |
 |RF-004| Agendamento de Hospedagem   | ALTA | |
 |RF-005| Sistema de Avaliações e Comentários   | ALTA | |
-|RF-006| Sistema de Mensagens   | ALTA | |
-|RF-007| Gerenciamento de Reservas   | ALTA | |
-|RF-008| Pagamentos e Transações   | ALTA | |
-|RF-009| Acesso ao Histórico   | MÉDIA | |
+|RF-006| Gerenciamento de Reservas   | ALTA | |
+|RF-008| Acesso ao Histórico   | MÉDIA | |
 |RF-010| Recuperação de Senha   | BAIXA | |
 
 Cadastro de Usuários:
@@ -85,19 +85,9 @@ Sistema de Avaliações e Comentários:
 Os donos de animais devem poder avaliar e deixar comentários sobre a experiência com um cuidador após a hospedagem.
 A classificação média do cuidador deve ser exibida em seu perfil.
 
-Sistema de Mensagens:
-
-Os donos de animais e os cuidadores devem poder se comunicar através de mensagens em tempo real.
-As notificações devem alertar os usuários sobre novas mensagens.
-
 Gerenciamento de Reservas:
 
 Os donos de animais e os cuidadores devem ter acesso a um painel para visualizar e gerenciar suas reservas atuais e futuras.
-
-Pagamentos e Transações:
-
-O sistema deve permitir que os donos de animais efetuem pagamentos de hospedagem de forma segura.
-Deve haver um sistema de registro de transações para rastrear pagamentos e comissões (se aplicável).
 
 Acesso ao Histórico:
 
@@ -115,6 +105,8 @@ Os usuários devem ter a opção de redefinir suas senhas caso as esqueçam.
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003|O sistema deve respeitar a LGPD | ALTA|
+|RNF-004|O sistema deve ser responsivo para rodar em um dispositivos móvel|
+|RNF-005|A fonte utilizada deve estar em um tamanho adequado, permitindo uma boa leitura em telas pequenas|
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 - [Requisitos Funcionais
@@ -138,9 +130,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| Controlar o nível de autoridade dos usuários          | 
+|03|O desenvolvimento do projeto estará limitado a 6 colaboradores          | 
 |04| Sistema limitado a linguagem HTML e Css               | 
-|05| Quantidade de funcionalidades que serão implementadas | 
+
   
  
  
