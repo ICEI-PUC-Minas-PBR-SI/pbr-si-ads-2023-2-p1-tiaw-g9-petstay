@@ -105,8 +105,8 @@ Os usuários devem ter a opção de redefinir suas senhas caso as esqueçam.
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003|O sistema deve respeitar a LGPD | ALTA|
-|RNF-004|O sistema deve ser responsivo para rodar em um dispositivos móvel|
-|RNF-005|A fonte utilizada deve estar em um tamanho adequado, permitindo uma boa leitura em telas pequenas|
+|RNF-004|O sistema deve ser responsivo para rodar em um dispositivos móvel| MÉDIA |
+|RNF-005|A fonte utilizada deve estar em um tamanho adequado, permitindo uma boa leitura em telas pequenas| BAIXA |
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 - [Requisitos Funcionais
