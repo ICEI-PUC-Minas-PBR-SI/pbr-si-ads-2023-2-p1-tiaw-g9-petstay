@@ -19,6 +19,7 @@ Ligar pessoas que precisam de serviço de cuidado e hospedagem pet a pessoas que
 * Danuza Joaquina Silva
 * Veber Augusto Soares
 * Gabriel Rocha de Oliveira
+* Paulo Haniel Macedo de Castro
 
 ## Orientador
 
