@@ -11,6 +11,12 @@ Muitos tutores de animais de estimação enfrentam dificuldades ao procurar cuid
 
 3º Lucas Augusto tem 44 anos, é representante comercial de uma multinacional e solteiro. Lucas viaja muito a trabalho e isso dificulta muito a conciliação do seu tempo para cuidar da sua gatinha  clarinha que é cheia de energia. Lucas busca o serviço de hospedagem pet pelo fato de poder agendar a hospedagem da sua gatinha a qualquer momento  mesmo quando estiver fora de casa. Lucas vê como vantagem, a liberdade que o sistema de hospedagem pode proporcionar trazendo um custo/benefício muito considerável e um sentimento de alívio por saber que clarinha não estará sozinha em casa quando ele estiver em viagem. Lucas necessita de praticidade e compromisso, já que  viaja toda semana a trabalho, como ele não tem uma rotina definida, precisa de uma hospedagem pet a sua disposição com facilidade de acesso.
 
+4º Carlos, 68 anos, é um aposentado que ama cães. Ele possui tempo livre e energia para cuidar de animais de estimação, mas não pode ter um próprio devido às restrições de espaço em seu apartamento. Ele está procurando uma maneira de preencher seu tempo livre e ganhar algum dinheiro extra, oferecendo seus serviços como cuidador de cães para pessoas locais por meio do seu aplicativo.
+
+5º Joana, 35 anos, é uma profissional ocupada que trabalha longas horas e viaja com frequência a trabalho. Ela adora seu gato, mas muitas vezes se sente culpada por não poder cuidar dele adequadamente quando está ausente. Ela está em busca de um aplicativo que a ajude a encontrar cuidadores confiáveis para seu gato, pessoas que possam alimentá-lo, brincar com ele e garantir que ele esteja feliz e saudável enquanto ela está fora.
+
+6º Sofia, 20 anos, é uma estudante universitária apaixonada por animais, mas como mora em um dormitório da faculdade, não pode ter seu próprio bicho de estimação. Ela adoraria passar tempo com animais de outras pessoas enquanto ganha algum dinheiro para ajudar nas despesas do dia a dia. Ela procura um aplicativo que a conecte com donos de animais que precisam de cuidadores temporários para seus pets.
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
