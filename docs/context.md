@@ -25,7 +25,7 @@ A criação de uma aplicação web para cadastrar cuidadores de pets e pessoas q
 
 ## Público-Alvo
 
-O público alvo do Pet Stay são pessoas que precisam de lugares para hospedar seus pets por um período de tempo e pessoas que querem hospedar esses animais em sua casa.
+O público alvo do Pet Stay são pessoas que precisam de lugares para hospedar seus pets por um período de tempo e pessoas que querem hospedar esses animais em sua casa.Desta forma, foi estabelecido como público-alvo deste projeto as pessoas que tem uma rotina muito corrida e não querem deixar seus pets sozinhos em casa,  e pessoas que estão em busca de renda e que poderão hospedar esses pets em suas casas.
 
 
 
