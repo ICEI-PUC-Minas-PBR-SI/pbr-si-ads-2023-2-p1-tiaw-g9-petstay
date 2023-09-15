@@ -138,11 +138,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03|O desenvolvimento do projeto estará limitado a 6 colaboradores          | 
-|04| Sistema limitado a linguagem HTML e Css               | 
+|04| Sistema limitado a linguagem HTML e CSS e Jquery      | 
 
-  
- 
- 
+|ID| Soluções                                              |
+|--|-------------------------------------------------------|
+|01| Plano de projeto detalhado                            |
+|02| Aplicação clientside                                  |
+|03| Priorização e gerenciamento de tarefas                | 
+|04| Usar localStorage ou IndexedDB para armazenar dados   | 
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
