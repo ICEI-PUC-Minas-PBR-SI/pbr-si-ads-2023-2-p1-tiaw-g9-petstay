@@ -17,7 +17,7 @@ A guia About se encontra sendo onde o usuário conhecerá mais sobre nós e as m
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
-o Layout utilizado consiste em utilizar a logo do site no topo da tela, juntamente com o nome, padronizando em todas as páginas.
+O Layout utilizado consiste em utilizar a logo do site no topo da tela, juntamente com o nome, padronizando em todas as páginas.
 
 No topo da tela também terá o menu com os botões de "Pagina inicial", "login", "cadastre-se" e "o que fazemos?". Também padronizado em todas as páginas.
 
@@ -25,6 +25,11 @@ No topo da tela também terá o menu com os botões de "Pagina inicial", "login"
 ## Cores
 
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+
+
+As cores utilizadas são minimalistas, contendo azul claro, branco e preto.
+
+Azul claro e branco remetendo a serenidade, confiabilidade, segurança e coisas do tipo. E preto para ser o contraste para partes sérias e que precisam de atenção, como por exemplo a cor dos textos, a logo do site e o rodapé com informações importantes.
 
 29d4eb
 000000
