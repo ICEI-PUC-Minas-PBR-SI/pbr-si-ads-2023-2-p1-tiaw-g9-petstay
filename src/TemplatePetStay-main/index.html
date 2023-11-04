@@ -9,9 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" /> 
 
   <title>PetStay</title>
 
@@ -42,11 +39,6 @@
               <li class="nav-item active">
                 <a class="nav-link" href="index.html"> Página Inicial </a>
               </li>
-            <!--
-              <li class="nav-item">
-                <a class="nav-link" href="login.html"> Login </a>
-              </li>
-            -->
               <li class="nav-item">
                 <a class="nav-link pr-lg-0" href="register.html"> Cadastre-se</a>
               </li>
@@ -61,7 +53,7 @@
     </header>
   </div>
 
-  <section class="login_section layout_padding">
+  <div class="login_section ">
     <div class="container ">
       <div class="heading_container ">
         <h2 class="">
@@ -79,15 +71,13 @@
             <div>
               <input type="password" placeholder="Senha" />
             </div>
-            <div class="btn-box" id="btn-login">
-              <button>
-                Login
-              </button>
-            </div>
-            <div class="btn-box" id="btn-register">
-              <button>
-                <a  href="register.html">Cadastre-se</a>
-              </button>              
+            <div>
+              <div class="btn-box" id="btn-login">
+                <button>
+                  Login
+                </button>
+              </div>
+              <a href="resetPassword.html" style="margin-left: 25px;">Esqueci minha senha</a>
             </div>              
           </form>
         </div>
@@ -107,8 +97,13 @@
         <label for="data-saida">Data de Saída:</label>
         <input type="date" id="data-saida" name="data-saida">
       </div>
+      <div class="btn-box" >
+        <button id="btn-search">
+         Buscar cuidadores
+        </button>              
+      </div> 
     </div>
-  </section>
+  </div>
 
 
   
