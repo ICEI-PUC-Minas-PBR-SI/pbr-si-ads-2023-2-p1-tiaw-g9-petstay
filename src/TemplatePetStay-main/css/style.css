@@ -7,6 +7,8 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .input-container{
@@ -26,6 +28,36 @@ body {
   border:1px solid gray;
   border-radius: 12px;
   padding: 4vh 4vh;
+}
+
+.hospedagem{
+  border:1px solid gray;
+  border-radius: 12px;
+  padding: 3vh 4vh 1vh;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 100%;
+}
+
+.hostingManage{
+  border:1px solid gray;
+  border-radius: 12px;
+  padding: 3vh 4vh 1vh;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  width: 100%;
+}
+
+#cancelarHosting{
+  border-radius: 16px;
+  background-color: red;
+  color: white;
+  font-weight: 100;
+  font-size: small;
+  border: none;
+  height: 35px;
+  margin-bottom: 2vh;
 }
 
 .hosterInfo{
@@ -149,6 +181,7 @@ input[type="radio"] {
 .quadro{
   margin-left: 90px;
   margin-top: 20px;
+  padding-bottom: 35vh;
 }
 
 #cadaster-button{
@@ -757,6 +790,7 @@ a:focus {
   color: #ffffff;
   bottom: 0;
   width: 100% ;
+  position: fixed;
 }
 
 .info_section h5 {
