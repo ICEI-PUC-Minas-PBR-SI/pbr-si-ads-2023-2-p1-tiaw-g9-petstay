@@ -27,8 +27,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|RF-001| O sistema deve permitir a criação de usuários | ALTA | register.html |
+|RF-002| O sistema deve permitir a criação de usuários do tipo Cuidador | ALTA | register.html |
+|RF-003| O sistema deve permitir que um usuário possa fazer login no sistema usando seu nome de usuário e senha | ALTA | index.html |
+|RF-004| O sistema deve ter um filtro para pesquisar cuidadores | ALTA | index.html |
+|RF-005| O sistema deve ter um agendamento de hospedagem dos animais | ALTA | listaHosters.html |
+|RF-006| O sistema deve ter uma aba de avaliações e comentários sobre os cuidadores | ALTA | perfilHoster.html |
+|RF-007|  O sistema deve gerenciar reservas feitas | ALTA | - |
+|RF-008|  O sistema deve disponibilizar acesso ao histórico de hospedagens  | MÉDIA | - |
+|RF-009| O sistema deve disponibilizar a opçao de recuperar a senha de usuário   | BAIXA | resetPassword.html |
 
 ## Descrição das estruturas:
 
