@@ -29,13 +29,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|------------------------|------------|-----------------|
 |RF-001| O sistema deve permitir a criação de usuários | ALTA | register.html |
 |RF-002| O sistema deve permitir a criação de usuários do tipo Cuidador | ALTA | register.html |
-|RF-003| O sistema deve permitir que um usuário possa fazer login no sistema usando seu nome de usuário e senha | ALTA | index.html |
+|RF-003| Login e Cadastro | ALTA | index.html |
 |RF-004| O sistema deve ter um filtro para pesquisar cuidadores | ALTA | index.html |
-|RF-005| O sistema deve ter um agendamento de hospedagem dos animais | ALTA | listaHosters.html |
-|RF-006| O sistema deve ter uma aba de avaliações e comentários sobre os cuidadores | ALTA | perfilHoster.html |
-|RF-007|  O sistema deve gerenciar reservas feitas | ALTA | - |
-|RF-008|  O sistema deve disponibilizar acesso ao histórico de hospedagens  | MÉDIA | - |
-|RF-009| O sistema deve disponibilizar a opçao de recuperar a senha de usuário   | BAIXA | resetPassword.html |
+|RF-005| Navegação | ALTA | index.html |
+|RF-006| Contato | MEDIA | index.html |
+|RF-007| O sistema deve ter um agendamento de hospedagem dos animais | ALTA | listaHosters.html |
+|RF-008| O sistema deve ter uma aba de avaliações e comentários sobre os cuidadores | ALTA | perfilHoster.html |
+|RF-009|  O sistema deve gerenciar reservas feitas | ALTA | - |
+|RF-010|  O sistema deve disponibilizar acesso ao histórico de hospedagens  | MÉDIA | - |
+|RF-011| O sistema deve disponibilizar a opçao de recuperar a senha de usuário   | BAIXA | resetPassword.html |
+
+### Requisitos Não Funcionais
+
+|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
+|------|------------------------|------------|-----------------|
+|RNF-001| Compatibilidade com Dispositivos | ALTA | index.html |
+|RNF-002| Compatibilidade com Dispositivos | ALTA | register.html |
+|RNF-003| Usabilidade | ALTA | register.html |
+|RNF-004| Compatibilidade com Dispositivos | ALTA | about.html |
+|RNF-005| Conteúdo Claro | MEDIA | about.html |
 
 ## Descrição das estruturas:
 
