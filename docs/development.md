@@ -35,8 +35,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-006| Contato | MEDIA | index.html |
 |RF-007| O sistema deve ter um agendamento de hospedagem dos animais | ALTA | listaHosters.html |
 |RF-008| O sistema deve ter uma aba de avaliações e comentários sobre os cuidadores | ALTA | perfilHoster.html |
-|RF-009|  O sistema deve gerenciar reservas feitas | ALTA | - |
-|RF-010|  O sistema deve disponibilizar acesso ao histórico de hospedagens  | MÉDIA | - |
+|RF-009|  O sistema deve gerenciar reservas feitas | ALTA | manageReservas.html |
+|RF-010|  O sistema deve disponibilizar acesso ao histórico de hospedagens  | MÉDIA | historicoReservas.html |
 |RF-011| O sistema deve disponibilizar a opçao de recuperar a senha de usuário   | BAIXA | resetPassword.html |
 
 ### Requisitos Não Funcionais
