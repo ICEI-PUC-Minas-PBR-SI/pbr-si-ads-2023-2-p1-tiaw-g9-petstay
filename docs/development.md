@@ -27,16 +27,56 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|RF-001| O sistema deve permitir a criação de usuários | ALTA | register.html |
+|RF-002| O sistema deve permitir a criação de usuários do tipo Cuidador | ALTA | register.html |
+|RF-003| Login e Cadastro | ALTA | index.html |
+|RF-004| O sistema deve ter um filtro para pesquisar cuidadores | ALTA | index.html |
+|RF-005| Navegação | ALTA | index.html |
+|RF-006| Contato | MEDIA | index.html |
+|RF-007| O sistema deve ter um agendamento de hospedagem dos animais | ALTA | listaHosters.html |
+|RF-008| O sistema deve ter uma aba de avaliações e comentários sobre os cuidadores | ALTA | perfilHoster.html |
+|RF-009|  O sistema deve gerenciar reservas feitas | ALTA | manageReservas.html |
+|RF-010|  O sistema deve disponibilizar acesso ao histórico de hospedagens  | MÉDIA | historicoReservas.html |
+|RF-011| O sistema deve disponibilizar a opçao de recuperar a senha de usuário   | BAIXA | resetPassword.html |
+
+### Requisitos Não Funcionais
+
+|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
+|------|------------------------|------------|-----------------|
+|RNF-001| Compatibilidade com Dispositivos | ALTA | index.html |
+|RNF-002| Compatibilidade com Dispositivos | ALTA | register.html |
+|RNF-003| Usabilidade | ALTA | register.html |
+|RNF-004| Compatibilidade com Dispositivos | ALTA | about.html |
+|RNF-005| Conteúdo Claro | MEDIA | about.html |
 
 ## Descrição das estruturas:
 
-## Notícia
+## Cuidador
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id             | Numero (Inteiro)  | Identificador do cuidador               | 1                                     |
+| Nome         | Texto             | Nome do cuidador                         | Vitor                                 |
+| Numero de telefone       | Texto Numérico             | Numero de telefone           | (31)9999-9999                   |
+| Endereço       | Texto             | Endereço do cuidador           | Avenida Beltrano Ciclano                   |
+| Senha       | Texto             | Senha do cuidador           | senhaboa123                   |
+| Animal Aceito       | Texto             | Animal que o cuidador estará disponível para cuidar           | Cão e Gato                   |
+
+## Dono do Pet
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador do cuidador               | 1                                              |
+| Nome         | Texto             | Nome do dono                         | Brian                                   |
+| Numero de telefone       | Texto Numérico             | Numero de telefone           | (31)9999-9999                   |
+| Endereço       | Texto             | Endereço do Dono do Pet           | Avenida Beltrano Ciclano                   |
+| Senha       | Texto             | Senha do Dono do Pet           | senhaboadedono123                   |
+| Tipo de Animal       | Texto             | Tipo de animal que o dono possui           | Cão                            |
+
+## Agendamento
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador do cuidador               | 1                                              |
+| Periodo Inicio        | Date/Time             | Data inicio em que o cuidador receberá o pet/ dono levará o pet  | 05/11/2023                              |
+| Periodo Fim       | Date/Time             | Data final em que o cuidador receberá o pet/ dono levará o pet           | 06/11/2023                            |
+| Cuidador       | Texto             | Nome do cuidador           | Vitor                            |
+
 
