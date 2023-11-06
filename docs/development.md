@@ -54,15 +54,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Cuidador
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador do cuidador               | 1                                              |
-| Nome         | Texto             | Nome do cuidador                         | Vitor                                   |
-| Animal Aceito       | Texto             | Animal que o cuidador estará disponível para cuidar           | Cão e Gato                            |
+| Id             | Numero (Inteiro)  | Identificador do cuidador               | 1                                     |
+| Nome         | Texto             | Nome do cuidador                         | Vitor                                 |
+| Numero de telefone       | Texto Numérico             | Numero de telefone           | (31)9999-9999                   |
+| Endereço       | Texto             | Endereço do cuidador           | Avenida Beltrano Ciclano                   |
+| Senha       | Texto             | Senha do cuidador           | senhaboa123                   |
+| Animal Aceito       | Texto             | Animal que o cuidador estará disponível para cuidar           | Cão e Gato                   |
 
 ## Dono do Pet
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador do cuidador               | 1                                              |
 | Nome         | Texto             | Nome do dono                         | Brian                                   |
+| Numero de telefone       | Texto Numérico             | Numero de telefone           | (31)9999-9999                   |
+| Endereço       | Texto             | Endereço do Dono do Pet           | Avenida Beltrano Ciclano                   |
+| Senha       | Texto             | Senha do Dono do Pet           | senhaboadedono123                   |
 | Tipo de Animal       | Texto             | Tipo de animal que o dono possui           | Cão                            |
 
 ## Agendamento
