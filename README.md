@@ -12,14 +12,9 @@ Ligar pessoas que precisam de serviço de cuidado e hospedagem pet a pessoas que
 
 ## Integrantes
 
-* Brian Nicolas Dias Costa 
-* Bruna Mikaella Pereira 
-* Gabriela Marques dos Santos Nascimento
+* Brian Nicolas Dias Costa
 * Vitor Gomes Faul
-* Danuza Joaquina Silva
-* Veber Augusto Soares
 * Gabriel Rocha de Oliveira
-* Paulo Haniel Macedo de Castro
 
 ## Orientador
 
