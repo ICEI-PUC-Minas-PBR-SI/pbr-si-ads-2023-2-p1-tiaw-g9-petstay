@@ -1,0 +1,31 @@
+Ata de Especificações - Projeto de Interface e Template Padrão   
+
+Data: 05/11/2023  
+
+Presentes: 
+
+* Brian Nicolas Dias Costa 
+* Vitor Gomes Faul
+* Gabriel Rocha de Oliveira
+
+Especificações Iniciais para a Ideia do Projeto 
+
+Para terceira etapa, foi discutido e definido o que era necessário ser alterado ou criado para apresentação, tendo em mente que na segunda etapa foi desenvolvido um codigo à mais do que foi solicitado.
+ 
+
+Gabriel Rocha:
+
+Contribuições: Desenvolveu partes do código do domínio PetStay juntamente com Vitor Faul em chamada. Desenvolveu inicialmente as páginas "index", "about", "register" e "login" já implementando algumas funcionalidades.
+
+ 
+
+Brian Nicolas: 
+
+Contribuições: Desenvolveu a página de perfil de cuidadores, tela de lista de cuidadores e recuperação de senha, gerenciar reservas e historico de reservas. Criou e desenvolveu os requisitos das páginas informadas. 
+
+ 
+
+Vitor Faul: 
+
+Contribuições: Juntamente com Gabriel Rocha, após Gabriel ter dado inicio no desenvolvimento das páginas citadas acima, poliu cada página de acordo com as recomendações da professora Shirley, juntando a página "login" na própria página principal "index" e adicionando mais funcionalidades na própria página. Subiu inicialmente todo o codigo no GitHub e transcreveu o que foi feito em "Programação de Funcionalidades" também no GitHub.
+ 
