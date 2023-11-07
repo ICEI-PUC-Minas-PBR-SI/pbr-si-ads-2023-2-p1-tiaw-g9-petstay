@@ -76,48 +76,48 @@
         <div class="col-md-6">
           <form action="#" id="cadaster">
             <div>
-              <input type="text" placeholder="Nome" />
+              <input type="text" placeholder="Nome" id="nome" required/>
             </div>
             <div>
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" id="email" required/>
             </div>
             <div>
-              <input type="text" placeholder="Número de telefone" />
+              <input type="text" placeholder="Número de telefone" id="phone" required/>
             </div>
             <div>
-              <input type="date" placeholder="Data de nascimento" />
+              <input type="date" placeholder="Data de nascimento" id="birth" required/>
             </div>
             <div>
-              <input type="text" placeholder="Endereço" />
+              <input type="text" placeholder="Endereço" id="endrc" required/>
             </div>
             <div>
-              <input type="password" placeholder="Senha" />
+              <input type="password" placeholder="Senha" id="password" required/>
             </div>
             <div>
-              <input type="password" placeholder="Confirmar Senha" />
+              <input type="password" placeholder="Confirmar Senha" id="confirmPassword" required/>
             </div>
             <div id="conditionInline">
               <div id="conditionaUser">
                 Cuidador:
-                <input type="radio" name="renderOption" value="cuidador" />
+                <input type="radio" name="renderOption" value="cuidador" id="cuidador"/>
                 <div id="tipoAnimal" class="conditional-content">
-                  Ave: <input type="checkbox" name="" id="" /> Cachorro:
-                  <input type="checkbox" name="" id="" /> Gato:
-                  <input type="checkbox" name="" id="" />
+                  Ave: <input type="checkbox" name="" id="ave" value="ave"/> Cachorro:
+                  <input type="checkbox" name="" id="cachorro" value="cachorro"/> Gato:
+                  <input type="checkbox" name="" id="gato" value="gato"/>
                 </div>
               </div>
               <div id="conditionalUser">
                 Dono do Pet:
-                <input type="radio" name="renderOption" value="donoDoPet" />
+                <input type="radio" name="renderOption" value="donoDoPet" id="donoDoPet"/>
                 <div id="animaisAceitos" class="conditional-content">
-                  Ave: <input type="checkbox" name="" id="" /> Cachorro:
-                  <input type="checkbox" name="" id="" /> Gato:
-                  <input type="checkbox" name="" id="" />
+                  Ave: <input type="checkbox" name="" id="ave" /> Cachorro:
+                  <input type="checkbox" name="" id="cachorro" /> Gato:
+                  <input type="checkbox" name="" id="gato" />
                 </div>
               </div>
             </div>
             <div class="btn-box" style="padding-bottom: 35vh;">
-              <button id="cadaster-button">Cadastrar</button>
+              <button id="cadaster-button" type="submit">Cadastrar</button>
             </div>
           </form>
         </div>
