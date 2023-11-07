@@ -7,6 +7,151 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.input-container{
+  
+}
+
+.userImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.hoster{
+  display: inline-flex;
+  margin-top: 5vh;
+  width: 100%;
+  border:1px solid gray;
+  border-radius: 12px;
+  padding: 4vh 4vh;
+}
+
+.hospedagem{
+  border:1px solid gray;
+  border-radius: 12px;
+  padding: 3vh 4vh 1vh;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 100%;
+}
+
+.hostingManage{
+  border:1px solid gray;
+  border-radius: 12px;
+  padding: 3vh 4vh 1vh;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  width: 100%;
+}
+
+#cancelarHosting{
+  border-radius: 16px;
+  background-color: red;
+  color: white;
+  font-weight: 100;
+  font-size: small;
+  border: none;
+  height: 35px;
+  margin-bottom: 2vh;
+}
+
+.hosterInfo{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 5vh;
+}
+
+#cadaster-button {
+  border-radius: 20px;
+  border: none !important;
+  background-color: #29d4eb;
+  width: 25vh;
+  height: 7vh;
+  margin-top: 10px;
+}
+
+.reset-pssWrd{
+
+}
+
+#commentInput{
+  width: 60%;
+  height: 30%;
+  border:1px solid gray;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: small;
+}
+
+#commentBtn{
+  border-radius: 20px;
+  border: none !important;
+  background-color: #29d4eb;
+  width: 25vh;
+  height: 7vh;
+  margin-top: 10px;
+  font-size: small;
+  margin-left: 10px;
+}
+
+.agendarBtn{
+  border-radius: 20px;
+  border: none !important;
+  background-color: #29d4eb;
+  width: 25vh;
+  height: 7vh;
+  margin-top: 10px;
+  font-size: small;
+  margin-left: 10px;
+}
+
+.containerResetPassWord {
+  margin: auto;
+  text-align: center;
+}
+
+.containerResetPassWord .reset-pssWrd input[type="password"] {
+  text-indent: 10px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+#reset-senha{
+  border-radius: 20px;
+  border: none !important;
+  background-color: #29d4eb;
+  width: 25vh;
+  height: 7vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#cadaster input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-indent: 10px;
+}
+
+#cadaster ::placeholder{
+  margin-left: 10px;
+}
+
+#cadaster input[type="text"], input[type="email"], input[type="password"], input[type="date"]{
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  outline: none;
+  border: none;
+  color: #101010;
 }
 
 .layout_padding {
@@ -14,7 +159,35 @@ body {
   padding-bottom: 90px;
 }
 
-.layout_padding2 {
+input[type="date"] {
+  padding-right: 10px;
+}
+input[type="radio"] {
+  width: 15px !important;
+}
+
+.contact_section #conditionInline input[type="radio"] {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+#conditionInline .conditional-content {
+  display: none;
+}
+#conditionalInline > div{
+  display: inline-block !important;
+}
+
+.quadro{
+  margin-left: 90px;
+  margin-top: 20px;
+  padding-bottom: 35vh;
+}
+
+#cadaster-button{
+  margin-bottom: 15px;
+}
+/* .layout_padding2 {
   padding-top: 45px;
   padding-bottom: 45px;
 }
@@ -33,7 +206,7 @@ body {
 
 .layout_padding-bottom {
   padding-bottom: 90px;
-}
+} */
 
 .heading_container {
   display: -webkit-box;
@@ -89,14 +262,6 @@ body {
   flex-direction: column;
 }
 
-.sub_page .hero_area {
-  min-height: auto;
-}
-
-.sub_page .header_section {
-  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
-}
 
 .header_section {
   background-color: #29d4eb;
@@ -435,6 +600,13 @@ a:focus {
   color: #5aa469;
   margin-bottom: 10px;
 }
+.login_section{
+  margin-top: 25px;
+}
+
+.btn-search {
+  margin-bottom: 15px;
+}
 
 .login_section h2 {
   margin-bottom: 45px;
@@ -523,7 +695,8 @@ a:focus {
 
 
 .contact_section h2 {
-  margin-bottom: 45px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .contact_section form {
@@ -617,6 +790,7 @@ a:focus {
   color: #ffffff;
   bottom: 0;
   width: 100% ;
+  position: fixed;
 }
 
 .info_section h5 {
@@ -654,6 +828,7 @@ a:focus {
   -ms-flex-align: end;
   align-items: flex-end;
   margin-bottom: 25px;
+  margin-top: 10px;
 }
 
 .footer_section .footer_logo a span {
