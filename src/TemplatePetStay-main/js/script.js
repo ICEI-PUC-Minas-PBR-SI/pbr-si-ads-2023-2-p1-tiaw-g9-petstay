@@ -28,7 +28,7 @@ const requestDB = window.indexedDB.open("database", 3, ); //nome, versao e upgra
       cuidadorStore.createIndex('notaId', 'nota', {unique: false});
       cuidadorStore.createIndex("comments", "comments", { unique: false });
     }
-    console.log('tables created');
+    
   }
 
   requestDB.onsuccess = (event) => {
@@ -41,6 +41,7 @@ const requestDB = window.indexedDB.open("database", 3, ); //nome, versao e upgra
     }
     
 };
+
 
 function fillDB(db) {
   document.getElementById("cadaster").addEventListener("submit", (event) => {
@@ -83,9 +84,8 @@ function fillDB(db) {
           tipoAnimal: animais
         }
 
-        let transaction = db.transaction(["donoAnimal"], "readonly");
-        let objStore = transaction.objectStore("donoAnimal");
-        let addCuidadorReq = objStore.add(newUser);
+        let donoObjStore = db.transaction(["donoAnimal"], "readwrite").objectStore("donoAnimal");
+        let addCuidadorReq = donoObjStore.add(newUser);
 
         addCuidadorReq.onsuccess = () => console.log("cuidador adicionado");
       }else if(tipoUser.value == 'donoDoPet'){
@@ -99,7 +99,7 @@ function fillDB(db) {
           tipoAnimalAceito: animais
           
         }
-        let transaction = db.transaction(["cuidador"], "readonly");
+        let transaction = db.transaction(["cuidador"], "readwrite");
         let objStore = transaction.objectStore("cuidador");
         let addCuidadorReq = objStore.add(newUser);
         addCuidadorReq.onsuccess = () => console.log("cuidador adicionado");
