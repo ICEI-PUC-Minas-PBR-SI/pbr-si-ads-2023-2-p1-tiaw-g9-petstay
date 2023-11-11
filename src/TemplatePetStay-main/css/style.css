@@ -115,7 +115,7 @@ body {
   text-align: center;
 }
 
-.containerResetPassWord .reset-pssWrd input[type="password"] {
+.containerResetPassWord .reset-pssWrd input[type="password"], .reset-pssWrd input[type="email"]{
   text-indent: 10px;
   width: 40%;
   margin-bottom: 10px;
