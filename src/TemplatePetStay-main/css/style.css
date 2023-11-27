@@ -99,6 +99,17 @@ body {
   margin-left: 10px;
 }
 
+#agendarbtn{
+  border-radius: 20px;
+  border: none !important;
+  background-color: #29d4eb;
+  width: 25vh;
+  height: 7vh;
+  margin-top: 10px;
+  font-size: small;
+  margin-left: 10px;
+}
+
 .agendarBtn{
   border-radius: 20px;
   border: none !important;

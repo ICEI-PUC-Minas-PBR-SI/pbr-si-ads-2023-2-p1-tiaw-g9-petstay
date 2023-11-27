@@ -15,7 +15,8 @@
           <meta name="author" content="" />
       
           <title>PetStay</title>
-      
+          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+          <script src="js/reservas.js"></script>
           <link href="css/font-awesome.min.css" rel="stylesheet" />
       
           <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -72,19 +73,12 @@
           </div>
         </header>
      <div class="container">
-          <div class="container">
-               <div style="margin-top: 10px;">
-                    <h4>Seus agendamentos</h4>
-               </div>
-               <div class="hostingManage">
-                    <p>Cuidador: <a href=""> {NOME} </a> </p>
-                    <p>{--/--/----} a {--/--/----}</p>
-                    <button id="cancelarHosting">Cancelar agendamento</button>
-               </div>
+          <div class="container" id="agendamentos">
+               
           </div>
      </div>
      <footer class="footer_section">
-          <div class="container" style="">
+          <div class="container" >
             <div class="row">
               <div class="col-md-6 col-lg-6">
                 <div class="footer_logo">

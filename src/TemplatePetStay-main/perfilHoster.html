@@ -13,7 +13,8 @@
       <meta name="author" content="" />
 
       <title>PetStay</title>
-
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script src="./js/perfil.js"></script>
       <link href="css/font-awesome.min.css" rel="stylesheet" />
 
       <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -62,12 +63,12 @@
             </div>
       </header>
       <div class="container">
-            <div class="hoster">
-                  <div>
+            <div class="">
+                  <!-- <div>
                         <img src="./images/client1.jpg" alt="" class="userImg">
-                  </div>
-                  <div class="hosterInfo">
-                        <div>
+                  </div> -->
+                  <div id="hosterInfo">
+                        <!-- <div>
                               <p>[NOME]</p>
                               <p>[ENDEREÇO]</p>
                               <p>[ANIMEIS ACEITOS]</p>
@@ -75,30 +76,35 @@
                         <div style="margin-left: 10vh;">
                               <p>Nota: {-.-/5}</p>
                               <p><a href="http://wa.me">Entrar em contato</a></p>
-                        </div>
+                        </div> -->
                   </div>
             </div>
-            <div style="margin-top: 5vh; display: flex; align-items: center; justify-content: space-around;">
-                  <div>
-                        <label for="nota">Nota:</label>
-                        <select name="nota" id="nota">
-                              <option value="0">0</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                              <option value="4">4</option>
-                              <option value="5">5</option>
-                        </select>
-                  </div>
+            <div >
+            <form id="commentForm" style="margin-top: 5vh; display: flex; align-items: center; justify-content: space-around;">                  
+                        <div>
+                            <label for="notaField">Nota:</label>
+                            <select name="nota" id="notaField">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
                         
-                  <input type="text" placeholder="Comente aqui" id="commentInput">
-                  <button id="commentBtn">Adicionar comentário</button>
+                        <input type="text" placeholder="Comente aqui" id="commentInput" name="comment">
+                        <button id="commentBtn" type="submit">Adicionar comentário</button>
                   
+                  
+            </form>  
+            </div>
+            <div id="commentsContainer">
+
             </div>
       </div>
       </div>
       <footer class="footer_section">
-            <div class="container" style="">
+            <div class="container" >
                   <div class="row">
                         <div class="col-md-6 col-lg-6">
                               <div class="footer_logo">

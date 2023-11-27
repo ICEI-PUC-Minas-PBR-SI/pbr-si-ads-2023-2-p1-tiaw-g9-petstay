@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "senha": "senhaforte",
+      "id": 1,
+      "tipoUser": "cuidador",
+      "nome": "Brian Nicolas Dias Costa",
+      "email": "briannicolasdc@gmail.com",
+      "phone": "(31) 98390-4123",
+      "birth": "2004-04-02",
+      "endrc": "191 Rua Basiléia",
+      "tipoAnimal": [
+        "cachorro"
+      ],
+      "nota": 2.5,
+      "reservas": [
+        {
+          "endereco": "Rua Basiléia",
+          "dataEntrada": "2023-11-23",
+          "dataSaida": "2023-11-25",
+          "tipoAnimal": [
+            "cachorro"
+          ]
+        }
+      ],
+      "rating": [
+        {
+          "nota": 1,
+          "text": "fgafasfa"
+        },
+        {
+          "nota": 4,
+          "text": "fasfasfaf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tipoUser": "donoAnimal",
+      "nome": "CAIO FELIPE",
+      "email": "1484084@sga.pucminas.br",
+      "phone": "(31) 98390-4123",
+      "birth": "2008-06-16",
+      "endrc": "191 Rua Basiléia",
+      "senha": "senha",
+      "tipoAnimal": [
+        "cachorro"
+      ],
+      "nota": 0,
+      "reservas": [
+        {
+          "endereco": "Rua Basiléia",
+          "dataEntrada": "2023-11-23",
+          "dataSaida": "2023-11-25",
+          "tipoAnimal": [
+            "cachorro"
+          ]
+        },
+        {
+          "endereco": "Rua Basiléia",
+          "dataEntrada": "2023-11-25",
+          "dataSaida": "2023-11-29",
+          "tipoAnimal": [
+            "cachorro"
+          ]
+        }
+      ],
+      "rating": []
+    }
+  ]
+}
