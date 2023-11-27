@@ -21,6 +21,15 @@
           "tipoAnimal": [
             "cachorro"
           ]
+        },
+        {
+          "endereco": "rua do ouro",
+          "dataEntrada": "2023-11-28",
+          "dataSaida": "2023-11-30",
+          "tipoAnimal": [
+            "cachorro"
+          ],
+          "id": 3
         }
       ],
       "rating": [
@@ -63,6 +72,15 @@
           "tipoAnimal": [
             "cachorro"
           ]
+        },
+        {
+          "endereco": "rua do ouro",
+          "dataEntrada": "2023-11-28",
+          "dataSaida": "2023-11-30",
+          "tipoAnimal": [
+            "cachorro"
+          ],
+          "id": 3
         }
       ],
       "rating": []

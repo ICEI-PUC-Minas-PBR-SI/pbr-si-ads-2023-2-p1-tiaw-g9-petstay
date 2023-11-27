@@ -56,7 +56,7 @@ $(document).ready(() => {
                dataEntrada: dataInico,
                dataSaida: dataFinal,
                tipoAnimal: token.tipoAnimal,
-               userName: user.nome
+               id: user.reservas.length+1
           }
           console.log(infoReserva);
           localStorage.setItem('reserva', JSON.stringify(infoReserva));
