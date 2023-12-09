@@ -1,9 +1,9 @@
 // import jwt from 'jsonwebtoken';
-
+//import { renderHeader} from './customHeader.js';
 let usersArray;
 
 $(document).ready(() => {
-     
+
      $.ajax({
           type: 'GET',
           url: 'http://localhost:3000/users',
@@ -16,31 +16,44 @@ $(document).ready(() => {
                console.error('Error fetching data:', error);
           }
      });
-     
+
+     let tokenString = localStorage.getItem("token");
+     let token = JSON.parse(tokenString);
+     if (token) {
+          $("#loginform").hide();
+          $("#loginTitle").hide();
+     }
+
      document.getElementById("login").addEventListener("submit", (event) => {
-          event.preventDefault();
+          //event.preventDefault();
           email = document.getElementById("emailLogin").value;
           senha = document.getElementById("senhaLogin").value;
           const userToLogIn = usersArray.find((user) => user.email == email);
-          if (userToLogIn){
+          if (userToLogIn) {
                if (userToLogIn.senha == senha) {
                     const token = generateToken(userToLogIn);
                     localStorage.setItem('token', token);
+                    window.location.reload(true);
                     console.log(token, userToLogIn.tipoUser);
                     //remover form login 
-                    if (userToLogIn.tipoUser == "cuidador"){
-                         window.location.href = "../TemplatePetStay-main/historicoReservas.html";
-                    }else if (userToLogIn.tipoUser == "donoAnimal"){
+                    if (userToLogIn.tipoUser == "cuidador") {
                          $("#loginform").hide();
                          $("#loginTitle").hide();
+                         window.location.href = "../TemplatePetStay-main/historicoReservas.html";
+                    } else if (userToLogIn.tipoUser == "donoAnimal") {
+                         $("#loginform").hide();
+                         $("#loginTitle").hide();
+
                     }
+                    $(document).trigger('login');
                } else {
                     alert(" Senha invalida!");
                }
-          }else{
+          } else {
                alert("Email invalido!");
           }
-     
+
+
      });
 
      document.getElementById("reservaForm").addEventListener("submit", (event) => {
@@ -60,22 +73,23 @@ $(document).ready(() => {
           }
           console.log(infoReserva);
           localStorage.setItem('reserva', JSON.stringify(infoReserva));
+          window.location.href = "../TemplatePetStay-main/listaHosters.html";
      })
 })
 
 
 function generateToken(user) {
- 
- const tokenData = {
-     userId: user.id,
-     tipoUser: user.tipoUser, 
-     tipoAnimal: user.tipoAnimal
-     
- };
 
- const token = JSON.stringify(tokenData);
+     const tokenData = {
+          userId: user.id,
+          tipoUser: user.tipoUser,
+          tipoAnimal: user.tipoAnimal
 
- return token;
+     };
+
+     const token = JSON.stringify(tokenData);
+
+     return token;
 }
 
 // const randomString = () => {

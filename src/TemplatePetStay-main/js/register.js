@@ -24,14 +24,14 @@ document.addEventListener("DOMContentLoaded", function () {
           let endrc = document.getElementById("endrc").value;
           let senha = document.getElementById("password").value;
           let confirmaSenha = document.getElementById("confirmPassword").value;
-          let tipoUser = document.querySelector('input[name="renderOption"]:checked');
+          let tipoUser = document.querySelector('input[name="renderOption"]:checked').value;
           let animais = [];
 
           let ave = document.getElementById("ave");
           let cachorro = document.getElementById("cachorro");
           let gato = document.getElementById("gato");
 
-          if (tipoUser.value == "cuidador") {
+          if (tipoUser == "cuidador") {
                ave = document.getElementById("aveCuidador");
                cachorro = document.getElementById("cachorroCuidador");
                gato = document.getElementById("gatoCuidador");
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
           if (senha == confirmaSenha) {
                newUser = {
                     id: usersArray.length + 1,
-                    tipoUser: tipoUser.value,
+                    tipoUser: tipoUser,
                     nome: nome,
                     email: email,
                     phone: phone,

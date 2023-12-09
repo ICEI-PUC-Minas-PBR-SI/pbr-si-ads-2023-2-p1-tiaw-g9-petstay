@@ -13,7 +13,7 @@ $(document).ready(function () {
                //let reserva = JSON.parse(localStorage.getItem('reserva'));
                usersArray.forEach(function (user) {
                     if (user.id == token.userId) {
-                         console.log('fodas');
+                        
                          reservasValidas(user.reservas);
                     }
                })
@@ -29,48 +29,44 @@ $(document).ready(function () {
 
      $('#agendamentos').on('click', '.cancelarHostingBtn', function () {
           const userId = token.userId;
-          const reservaIndex = $(this).data('reserva-index');
-
-          
+          const reservaId = $(this).data('reserva-id');
+      
           const userIndex = usersArray.findIndex(user => user.id == userId);
-
+      
           if (userIndex !== -1) {
-               
-               if (reservaIndex !== undefined && reservaIndex >= 0 && reservaIndex < usersArray[userIndex].reservas.length) {
-               
-                    usersArray[userIndex].reservas.splice(reservaIndex, 1);
-
-                    $.ajax({
-                         type: 'PUT',
-                         url: `http://localhost:3000/users/${userId}`,
-                         contentType: 'application/json',
-                         data: JSON.stringify(usersArray[userIndex]),
-                         success: function () {
-                              console.log('Reservation canceled and server updated successfully');
-                         },
-                         error: function (error) {
-                              console.error('Error updating server:', error);
-                         }
-                    });
-
-                    
-                    $(this).closest('.container').remove();
-               } else {
-                    console.error('Invalid reservation index');
-               }
+              const reservaIndex = usersArray[userIndex].reservas.findIndex(reserva => reserva.id == reservaId);
+      
+              if (reservaIndex !== -1) {
+                  usersArray[userIndex].reservas.splice(reservaIndex, 1);
+      
+                  
+                  $.ajax({
+                      type: 'PUT',
+                      url: `http://localhost:3000/users/${userId}`,
+                      contentType: 'application/json',
+                      data: JSON.stringify(usersArray[userIndex]),
+                      success: function () {
+                          console.log('Reservation canceled and server updated');
+                      },
+                      error: function (error) {
+                          console.error('Error updating server:', error);
+                      }
+                  });
+                  $(this).closest('.container').remove();
+              } else {
+                  console.error('Reservation not found for the given id');
+              }
           } else {
-               console.error('User not found in usersArray');
+              console.error('User not found in usersArray');
           }
-
-          //$(this).closest('.container').remove();
-     });
+      });
 
 });
 
 function reservasValidas(reservas) {
      const currentDate = new Date();
      const agendamentosContainer = $('#agendamentos');
-     console.log("reservas");
+
 
      for (const reserva of reservas) {
           const dataSaidaReserva = new Date(reserva.dataSaida);

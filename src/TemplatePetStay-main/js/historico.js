@@ -1,7 +1,9 @@
+let usersArray;
+let token
 $(document).ready(() => {
-     let usersArray;
+     
      let tokenString = localStorage.getItem("token");
-     let token = JSON.parse(tokenString);
+     token = JSON.parse(tokenString);
 
      $.ajax({
           type: 'GET',
@@ -16,33 +18,47 @@ $(document).ready(() => {
                          if (user.id == token.userId) {
                               renderHistoricalReservations(user.reservas);
                          }
+                         // if (user.id == token.userId) {
+                         //      renderHistoricalReservations(user.reservas);
+                         // }
                });
+               
           },
           error: function (error) {
                console.error('Error fetching data:', error);
           }
      });
 
-     let historico;
+     
     
 
      //loopar reservas 
      function renderHistoricalReservations(reservas) {
           const historicoReservasContainer = $('#historicoReservas');
-  
+          let nome;
+          let id;
+
           for (const reserva of reservas) {
+               usersArray.forEach((user) => {
+                    if (user.id != token.userId) {
+                         user.reservas.forEach((reserva2) => {
+                              if(reserva2.id == reserva.id) {
+                                   nome = user.nome;
+                                   id = user.id;
+                              }
+                         })
+                    }
+               })
               const dataAtual = new Date();
               const dataSaida = new Date(reserva.dataSaida);
-  
               if (dataAtual > dataSaida) {
                   const historicoDiv = $('<div>').addClass('container historicoReservasItem');
                   historicoDiv.append(`
-                      <div style="margin-top: 10px;">
-                          <h4>Reservas Antigas</h4>
-                      </div>
+                      
                       <div class="hostingManage">
                           <p>${reserva.dataEntrada} a ${reserva.dataSaida}</p>
-                          
+                          <p><a href="perfilHoster.html?id=${id}" class="verPerfilBtn" data-user-id="${id}">${nome}</a></p>
+                          <p>${reserva.endereco}</p>
                       </div>
                   `);
   

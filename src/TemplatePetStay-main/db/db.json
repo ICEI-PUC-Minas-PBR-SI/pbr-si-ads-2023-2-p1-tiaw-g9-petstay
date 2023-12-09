@@ -20,7 +20,17 @@
           "dataSaida": "2023-11-25",
           "tipoAnimal": [
             "cachorro"
-          ]
+          ],
+          "id": 1
+        },
+        {
+          "endereco": "Rua Basiléia",
+          "dataEntrada": "2023-11-25",
+          "dataSaida": "2023-11-29",
+          "tipoAnimal": [
+            "cachorro"
+          ],
+          "id": 2
         },
         {
           "endereco": "rua do ouro",
@@ -63,7 +73,8 @@
           "dataSaida": "2023-11-25",
           "tipoAnimal": [
             "cachorro"
-          ]
+          ],
+          "id": 1
         },
         {
           "endereco": "Rua Basiléia",
@@ -71,7 +82,8 @@
           "dataSaida": "2023-11-29",
           "tipoAnimal": [
             "cachorro"
-          ]
+          ],
+          "id": 2
         },
         {
           "endereco": "rua do ouro",
@@ -84,6 +96,59 @@
         }
       ],
       "rating": []
+    },
+    {
+      "senha": "senha123",
+      "id": 3,
+      "tipoUser": "donoAnimal",
+      "nome": "Teste da Silva",
+      "email": "teste@gmail.com",
+      "phone": "31968989312",
+      "birth": "2001-01-01",
+      "endrc": "Rua 7",
+      "tipoAnimal": [
+        "ave",
+        "gato"
+      ],
+      "nota": 0,
+      "reservas": [],
+      "rating": []
+    },
+    {
+      "id": 4,
+      "tipoUser": "cuidador",
+      "nome": "Teste Cuidador",
+      "email": "testecuidador@gmail.com",
+      "phone": "8391379201",
+      "birth": "2002-01-01",
+      "endrc": "Rua 9",
+      "senha": "senha",
+      "tipoAnimal": [
+        "ave",
+        "gato"
+      ],
+      "nota": 3.5,
+      "reservas": [
+        {
+          "endereco": "Rua 7",
+          "dataEntrada": "2023-12-10",
+          "dataSaida": "2023-12-12",
+          "tipoAnimal": [
+            "gato"
+          ],
+          "id": 1
+        }
+      ],
+      "rating": [
+        {
+          "nota": 4,
+          "text": "Muito bom"
+        },
+        {
+          "nota": 3,
+          "text": "Mais ou menos"
+        }
+      ]
     }
   ]
 }

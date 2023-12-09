@@ -9,6 +9,7 @@ body {
   background-color: #ffffff;
   margin: 0;
   padding: 0;
+  margin-bottom: 15%;
 }
 
 .input-container{
@@ -29,6 +30,16 @@ body {
   border-radius: 12px;
   padding: 4vh 4vh;
 }
+.comment{
+  display: flex;
+  margin-top: 5vh;
+  width: 100%;
+  height: 20px;
+  border:1px solid gray;
+  border-radius: 12px;
+  padding: 4vh 4vh;
+
+}
 
 .hospedagem{
   border:1px solid gray;
@@ -47,6 +58,13 @@ body {
   align-items: center;
   display: inline-flex;
   width: 100%;
+  margin-bottom: 10px;
+}
+
+#logout {
+  background-color: #29d4eb;
+  
+  border: none;
 }
 
 #cancelarHosting{
@@ -801,7 +819,9 @@ a:focus {
   color: #ffffff;
   bottom: 0;
   width: 100% ;
+  height: 25%;
   position: fixed;
+  font-size: small;
 }
 
 .info_section h5 {
