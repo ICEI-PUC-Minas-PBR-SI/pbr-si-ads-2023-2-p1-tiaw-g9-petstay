@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let usersArray;
   $.ajax({
     type: 'GET',
-    url: 'http://localhost:3000/users',
+    url: 'https://apiusers--briannicolasdc.repl.co/users',
     cache: false,
     success: function (users) {
       usersArray = users;

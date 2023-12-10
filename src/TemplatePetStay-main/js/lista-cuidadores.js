@@ -3,7 +3,7 @@ let usersArray;
 $(document).ready(function () {
   $.ajax({
     type: 'GET',
-    url: 'http://localhost:3000/users',
+    url: 'https://apiusers--briannicolasdc.repl.co/users',
     cache: false,
     success: function (users) {
       usersArray = users;
@@ -63,7 +63,7 @@ $(document).ready(function () {
         usersArray[cuidadorIndex] = selectedCuidador;
         $.ajax({
           type: 'PUT',
-          url: `http://localhost:3000/users/${selectedCuidador.id}`,
+          url: `https://apiusers--briannicolasdc.repl.co/users/${selectedCuidador.id}`,
           data: JSON.stringify(selectedCuidador),
           contentType: 'application/json',
           success: function () {
@@ -82,7 +82,7 @@ $(document).ready(function () {
           user.reservas.push(reserva);
           $.ajax({
             type: 'PUT',
-            url: `http://localhost:3000/users/${user.id}`,
+            url: `https://apiusers--briannicolasdc.repl.co/users/${user.id}`,
             data: JSON.stringify(user),
             contentType: 'application/json',
             success: function () {
