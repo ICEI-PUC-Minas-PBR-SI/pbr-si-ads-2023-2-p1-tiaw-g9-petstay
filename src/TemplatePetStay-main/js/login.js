@@ -39,7 +39,7 @@ $(document).ready(() => {
                     if (userToLogIn.tipoUser == "cuidador") {
                          $("#loginform").hide();
                          $("#loginTitle").hide();
-                         window.location.href = "../TemplatePetStay-main/historicoReservas.html";
+                         window.location.href = "historicoReservas.html";
                     } else if (userToLogIn.tipoUser == "donoAnimal") {
                          $("#loginform").hide();
                          $("#loginTitle").hide();
@@ -73,7 +73,7 @@ $(document).ready(() => {
           }
           console.log(infoReserva);
           localStorage.setItem('reserva', JSON.stringify(infoReserva));
-          window.location.href = "../TemplatePetStay-main/listaHosters.html";
+          window.location.href = "listaHosters.html";
      })
 })
 
