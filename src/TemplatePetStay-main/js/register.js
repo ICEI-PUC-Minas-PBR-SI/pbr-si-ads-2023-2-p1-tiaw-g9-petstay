@@ -68,13 +68,13 @@ document.addEventListener("DOMContentLoaded", function () {
           //usersArray.push(newUser);
           $.ajax({
                type: 'POST',
-               url: 'http://localhost:3000/users',
+               url: 'https://apiusers--briannicolasdc.repl.co/users',
                contentType: 'application/json',
                data: JSON.stringify(newUser),
                success: function (addedUser) {
                     console.log('New user added on the server:', addedUser);
 
-                    $.get('http://localhost:3000/users', function (users) {
+                    $.get('https://apiusers--briannicolasdc.repl.co/users', function (users) {
                          localStorage.setItem('users', JSON.stringify(users));
                          console.log('Data fetched and stored in localStorage:', users);
                     })

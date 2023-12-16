@@ -88,13 +88,13 @@ $(document).ready(function () {
  
              $.ajax({
                  type: 'PUT',
-                 url: `http://localhost:3000/users/${userId}`,
+                 url: `https://apiusers--briannicolasdc.repl.co/users/${userId}`,
                  contentType: 'application/json',
                  data: JSON.stringify(userToUpdate),
                  success: function (response) {
                      console.log('rating added:', response);
  
-                     $.get('http://localhost:3000/users', function (users) {
+                     $.get('https://apiusers--briannicolasdc.repl.co/users', function (users) {
                          localStorage.setItem('users', JSON.stringify(users));
                          console.log('Data fetched and stored in localStorage:', users);
                      }).fail(function (error) {

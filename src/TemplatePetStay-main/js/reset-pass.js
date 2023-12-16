@@ -24,13 +24,13 @@ document.addEventListener("DOMContentLoaded", function () {
         userToUpdate.senha = novaSenha;
         $.ajax({
           type: 'PUT',
-          url: `http://localhost:3000/users/${userToUpdate.id}`,
+          url: `https://apiusers--briannicolasdc.repl.co/users/${userToUpdate.id}`,
           contentType: 'application/json',
           data: JSON.stringify({ senha: novaSenha, ...userToUpdate }),
           success: function (response) {
             console.log('Password updated on the server:', response);
 
-            $.get('http://localhost:3000/users', function (users) {
+            $.get('https://apiusers--briannicolasdc.repl.co/users', function (users) {
               localStorage.setItem('users', JSON.stringify(users));
               console.log('Data fetched and stored in localStorage:', users);
             })

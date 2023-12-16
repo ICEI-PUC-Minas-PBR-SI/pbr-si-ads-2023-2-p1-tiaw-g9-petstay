@@ -42,7 +42,7 @@ $(document).ready(function () {
                   
                   $.ajax({
                       type: 'PUT',
-                      url: `http://localhost:3000/users/${userId}`,
+                      url: `https://apiusers--briannicolasdc.repl.co/users/${userId}`,
                       contentType: 'application/json',
                       data: JSON.stringify(usersArray[userIndex]),
                       success: function () {
