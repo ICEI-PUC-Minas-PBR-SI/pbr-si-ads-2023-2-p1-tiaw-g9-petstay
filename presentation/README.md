@@ -6,14 +6,13 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 
 * [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./PetStay.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](https://www.youtube.com/watch?v=Xn87xrdD1Bc) -- arquivo com a demonstração do funcionamento do sistema
+* [Apresentação final](./PetStay.pdf) 
+* [Vídeo de demonstração](https://www.youtube.com/watch?v=Xn87xrdD1Bc) 
 
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
 
-## Título do Projeto
+## PetStay
 
-PetStay
+
 
 ## Identidade Visual (Marca, Design)
 
