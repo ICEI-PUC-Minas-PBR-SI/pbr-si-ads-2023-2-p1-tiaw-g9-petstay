@@ -97,7 +97,7 @@ $(document).ready(function () {
 
       localStorage.setItem('users', JSON.stringify(usersArray));
       console.log('Reservation added successfully');
-      window.location.href = "../TemplatePetStay-main/manageReservas.html";
+      window.location.href = "manageReservas.html";
     } else {
       console.error('No cuidador selected');
     }
