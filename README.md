@@ -14,7 +14,6 @@ Ligar pessoas que precisam de serviço de cuidado e hospedagem pet a pessoas que
 
 * Brian Nicolas Dias Costa 
 * Vitor Gomes Faul
-* Gabriel Rocha de Oliveira
 
 ## Orientador
 
