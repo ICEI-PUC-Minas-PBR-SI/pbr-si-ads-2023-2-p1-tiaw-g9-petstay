@@ -18,9 +18,9 @@ Ligar pessoas que precisam de serviço de cuidado e hospedagem pet a pessoas que
 
 ## Orientador
 
-* Franciele
-* Fabio
-* Shirley
+* Franciele Cristina Parreira Rodrigues
+* Fábio Leandro Rodrigues Cordeiro
+* Shirley Luana Ramos de Assis
 
 # Planejamento
 
